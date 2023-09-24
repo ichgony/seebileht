@@ -1,0 +1,156 @@
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 3em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 5em;
+}
+
+span svg {
+    width: 1.5em;
+    height: 1.5em;
+    padding-bottom: .2em;
+    margin-right: .5em;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.us-headline {
+    color: #de47a7;
+    background-color: #000000;
+    font-size: 10rem;
+    padding-inline: 5rem;
+    border-radius: 10rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+.intro-text {
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.intro-text::before {
+    color: #de47a7;
+    content: "Seebid ";
+}
+
+.category-card {
+    background-color: #de47a7;
+    padding-top: 2rem;
+    border-radius: 1rem;
+    width: 20rem;
+}
+
+.category-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.category-img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: 0 4rem;
+    overflow: hidden;
+    transition: object-position 0.5s;
+}
+
+.category-card:hover .category-img{
+    object-position: 0 0;
+}
+
+.progress-title {
+    font-weight: 400;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.progress-title-alt {
+    color: #de47a7;
+    font-weight: bold;
+}
+
+.progress {
+    height: 2rem;
+}
+
+.progress-bar {
+    width: 69%;
+    height: 100%;
+    font-size: large;
+    font-weight: 500;
+    background-color: #de47a7;
+}
+
+.meaningful-words {
+    font-size: 3rem;
+    border-radius: 2rem;
+    padding-inline: 1rem;
+    color: #de47a7;
+    background-color: #000000;
+    text-align: center;
+}
+
+.alternate-word {
+    color: #000000;
+    background-color: #de47a7;
+}
+
+@media only screen and (max-width: 992px) {
+  .us-headline {
+    font-size: 2.5rem;
+    padding-inline: 2rem;
+  }
+  
+  .intro-text {
+    font-size: 2rem;
+  }
+
+  .progress-title {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  .progress-title-alt {
+    font-size: 3rem;
+  }
+}
